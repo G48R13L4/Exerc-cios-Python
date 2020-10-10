@@ -41,11 +41,12 @@ if salario == 0:
 elif salario>maiorsall:
   maiorsall = salario
 
+'''
 if salario == 0:
      menorsall = salario
 elif salario<menorsall:
   menorsall = salario
-
+'''
 
 
 print(f'Quantidade de salários entre R$1.500,00 e R$2.000,00: {sall1}')

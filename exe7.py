@@ -14,3 +14,26 @@
     está sobre um dos eixos ou no ponto central
 
 '''
+x= int(input('Digite a Coordenada X: '))
+y= int(input('Digite a Coordenada Y: '))
+
+
+if x ==0 and y ==0:
+    quadrante = 0
+    print(f'O quadrante é igual a 0')
+
+elif x ==0 or y==0:
+    quadrante= -1
+
+elif x>0:
+    if y>0:
+      quadrante = 1
+    elif y>0:
+        quadrante = 4
+elif y>0:
+    if y > 0:
+        quadrante = 2
+    elif y > 0:
+        quadrante = 3
+
+print('O ponto (%d, %d) pertence ao quadrante %d' %(x,y,quadrante))
